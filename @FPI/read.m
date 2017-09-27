@@ -1,6 +1,6 @@
 function [res] = read(filename)
-%FPI.READ_RAW Read and calculate radiance data from a raw FPI camera file
-% cube = FPI.READ(filename, pattern) reads the raw data from filename and
+%FPI.READ Read and calculate radiance data from a raw FPI camera file
+% cube = FPI.READ(filename) reads the raw data from filename and
 % attempts to demosaic and calculate radiances for each layer using VTT 
 % header (.hdt) information.
 %
