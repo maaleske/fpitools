@@ -4,7 +4,7 @@ A MATLAB package for processing raw data from the VTT Fabry-Perot spectral image
 
 ## Requirements
 
-This package requires the [hsicube](hsicube) package (version 0.8.0 or later) with the [ENVI reader / writer](envi) package.
+This package requires the [hsicube][hsicube] package (version 0.8.0 or later) with the [ENVI reader / writer][envi] package.
 
 [hsicube]: https://github.com/maaleske/hsicube/
 [envi]: http://se.mathworks.com/matlabcentral/fileexchange/27172-envi-file-reader-writer
