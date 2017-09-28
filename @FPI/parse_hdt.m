@@ -1,5 +1,10 @@
 function [header, layers] = parse_hdt(file_name)
-
+%PARSE_HDT Parse metadata from a VTT header file
+% [header, layers] = parse_hdt(file_name) parses a .hdt header file 
+% for the metadata for each layer.
+%
+% Copyright 2017 Harri Ojanen, Technology Research Centre of Finland, VTT
+% See LICENSE for licensing information
 
 F = fopen(file_name, 'r');
 header = parse_block(F, 'Header');
